@@ -30,6 +30,6 @@ Users can define rules to modify requests or responses dynamically. For instance
 
 A practical use case is testing frontend error handling. By forcing an API endpoint to return delayed or malformed responses, developers can verify whether loading states, retries, and fallback logic are implemented correctly. This helps prevent runtime issues in production environments.
 
-The tool enables simulation of degraded network conditions by adding latency or limiting bandwidth. This is especially valuable for mobile app testing, where connection quality often fluctuates. It allows developers to analyze application behavior under slow or unstable networks and make targeted improvements.
+It also provides the ability to mimic poor network performance through adjustable latency and bandwidth restrictions. This feature is particularly beneficial for testing mobile applications, where network inconsistency is a common challenge. Developers can evaluate how their apps respond to unreliable or slow connections and refine performance accordingly.
 
-Saved rules can be reused to quickly reproduce testing scenarios. This helps maintain consistency in testing processes and minimizes dependence on external environments, enhancing both development efficiency and reliability.
+Rules can be stored and applied again, enabling repeatable test setups. This supports structured testing practices and reduces the need for external infrastructure, resulting in faster and more dependable development cycles.
